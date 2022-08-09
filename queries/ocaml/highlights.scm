@@ -125,7 +125,9 @@
 
 "%" @punctuation.special
 
-["(" ")" "[" "]" "{" "}" "[|" "|]" "[<" "[>" "begin" "end"] @punctuation.bracket
+["(" ")" "[" "]" "{" "}" "[|" "|]" "[<" "[>"] @punctuation.bracket
+
+["begin" "end"] @punctuation.special
 
 (object_type ["<" ">"] @punctuation.bracket)
 
